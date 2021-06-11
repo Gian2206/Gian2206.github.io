@@ -1,0 +1,370 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #EAEBEE;
+}
+
+header{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+    width: 100%;
+    background-color: #6079E1;
+    margin-bottom: 1rem;
+
+}
+
+.menu{
+    position: absolute;
+    top: 23%;
+    left: 3%;
+    width: 15%;
+    height: auto;
+}
+
+a{
+    text-decoration: none; 
+}
+
+li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color:#EAEBEE;
+    margin: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+.form_atividade{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0rem;
+    position: fixed;
+    bottom: 0;
+}
+
+.botao_form{
+    border:0;
+    width: 100%;
+    height: 2.5rem;
+    margin: 0rem;
+    font: 1.5rem 'Open Sans', sans-serif;
+    background-color: #6079E1;
+    color: #EAEBEE;
+}
+
+#espaco1{
+    height: 7.5rem;
+}
+
+.caixa_texto{
+    border:0;
+    width: 100%;
+    margin: 0rem;
+    height: 5rem;
+    background-color:#EAEBEE;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75rem;
+    color:#EAEBEE;
+}
+
+.titulo h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color:#EAEBEE;
+}
+
+
+#lista{
+    width:auto;
+    height:15rem;
+    background:#9BBDF0;
+    margin-top: 2rem;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#lista1{
+    width:auto;
+    height:4.5rem;
+    background:#6079E1;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Exercicios_Publicados{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #121211 ;
+    margin-bottom: 2rem;
+    font-weight: bold
+}
+
+#horario{
+    width:auto;
+    height:15rem;
+    background:#9BBDF0;
+    margin-top: 2rem;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#horario1{
+    width:auto;
+    height:4.5rem;
+    background:#6079E1;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.horarios{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #121211 ;
+    font-weight: bold
+}
+
+#espaco{
+    height:1.5rem;
+}
+
+#calendario1{
+    width:auto;
+    height:4.5rem;
+    background:#6079E1;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendario1 p{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#calendario{
+    width:auto;
+    height:10rem;
+    background:#9BBDF0;
+    margin-top: 2rem;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendario li{
+    color: #121211;
+    margin: 1.5rem;
+    font-weight: bold;
+}
+
+#calendario2{
+    width:auto;
+    height:10rem;
+    background:#9BBDF0;
+    margin-top: 2rem;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendario2 li{
+    color: #121211;
+    margin: 1.5rem;
+    font-weight: bold;
+}
+
+#calendario3{
+    width:auto;
+    height:4.5rem;
+    background:#6079E1;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendario3  p{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+#hamster{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    margin-top: 1rem;
+}
+#hamster img{
+    height: 23rem;
+}
+
+#lista_{
+    width:auto;
+    height:4.5rem;
+    background:#6079E1;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#lista_ p{
+    font-size: 1.75rem;
+}
+
+p,
+label {
+    font: 2rem 'Open Sans', sans-serif;
+}
+
+input {
+    margin-left: 1.2rem;
+    margin-right: 0.8rem;
+}
+
+#fez{
+    width: 2rem;
+    height: 2rem;
+}
+
+#nao_fez{
+    width: 2rem;
+    height: 2rem;
+}
+
+#feitos li{
+    font: 2rem 'Open Sans', sans-serif;
+    width:auto;
+    height:4.5rem;
+    background:#6079E1;
+    margin-right:2.5rem;
+    margin-left: 2.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#linha_check{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    
+}
+
+#fonte_feitos p{
+    font: 2rem 'Open Sans', sans-serif;
+    color: #121211;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#imagem_exercicio img{
+    width:97%;
+    height: auto;
+    margin-left: 0.3rem;
+}
+
+#tiens li{
+    font: 1rem 'Open Sans', sans-serif;
+    color: #121211;
+    max-width: 100%;
+    word-wrap: break-word;
+    justify-content: left;
+}
+
+
+#botoes{
+    margin-top: 2rem;
+    display: inline-flex;
+    width: 30%;
+    height: auto;
+
+}
+
+#botoes img{
+    width: 7rem;
+    height: auto;
+    margin-left: 0.6rem;
+}
+
