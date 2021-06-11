@@ -8,7 +8,7 @@ header{
     display: flex;
     position: relative;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 15%;
     width: 100%;
@@ -18,10 +18,8 @@ header{
 }
 
 .menu{
-    position: absolute;
-    top: 23%;
-    left: 3%;
-    width: 15%;
+    display: flex;
+    width: 5rem;
     height: auto;
 }
 
@@ -356,13 +354,19 @@ input {
 
 #botoes{
     margin-top: 2rem;
-    display: inline-flex;
-    width: 30%;
-    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
 
 }
 
 #botoes img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 7rem;
     height: auto;
     margin-left: 0.6rem;
@@ -372,4 +376,9 @@ input {
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color:#EAEBEE;
+}
+
+.espaco_titulo{
+    width: 10%;
+    height: 3rem;
 }
