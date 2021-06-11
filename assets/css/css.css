@@ -268,7 +268,7 @@ p{
     height: 23rem;
 }
 
-#lista_{
+.lista_{
     width:auto;
     height:4.5rem;
     background:#6079E1;
@@ -282,7 +282,7 @@ p{
     align-items: center;
 }
 
-#lista_ p{
+.lista_ p{
     font-size: 1.75rem;
 }
 
@@ -368,3 +368,8 @@ input {
     margin-left: 0.6rem;
 }
 
+.nome a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color:#EAEBEE;
+}
